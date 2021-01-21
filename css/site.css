@@ -1,0 +1,40 @@
+h1 {
+  font-family: bahnscrift, sans-serif;
+  color: white;
+}
+
+p {
+  font-family: calibri, sans-serif;
+  color: white;
+}
+
+li {
+  font-family: monospace;
+}
+
+img {
+  margin: 10px;
+  border-radius: 25px;
+}
+
+#about {
+  background-color: black;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  max-width: 358px;
+}
+
+#links {
+  background-color: black;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  max-width: 358px;
+}
