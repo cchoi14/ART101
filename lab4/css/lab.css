@@ -1,0 +1,51 @@
+p {
+  color: black;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+pre {
+  font-family: monospace, system-ui;
+  margin: 10px;
+  padding: 10px;
+  white-space: pre-wrap;
+  background-color: black;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#challenge {
+  background-color: #267dd9;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+}
+
+#problem {
+  background-color: #267dd9;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+}
+
+#results {
+  background-color: #267dd9;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+}
