@@ -1,0 +1,46 @@
+#content {
+  background-color: #989898;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+#output {
+  background-color: black;
+  max-width: 700px;
+  padding: 10px;
+}
+
+#output p {
+   font-family: monospace;
+   color: white;
+   font-size: 16px;
+}
+
+.special {
+  background-color: #5da1b0;
+}
+
+label {
+   font-family: "calibri", sans-serif;
+}
+
+body {
+  background-color: #606060;
+}
+
+p {
+  font-family: "calibri", sans-serif;
+}
+
+h1 {
+  font-family: "bahnschrift", sans-serif;
+}
+
+h2 {
+  font-family: "bahnschrift", sans-serif;
+}
+
+h3 {
+  font-family: "bahnschrift", sans-serif;
+}
