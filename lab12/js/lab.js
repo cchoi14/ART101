@@ -26,7 +26,6 @@ function sortingHat(str) {
 // find element
 $('#button').click(function() {
   var name = document.getElementById('input-text').value;
-  console.log(name);
   var house = sortingHat(name);
   var outputText = "<p>" + name + "! The Sorting Hat has declared you to be a " + house + "!<p>";
   $('#output').append(outputText);
