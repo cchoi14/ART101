@@ -7,14 +7,52 @@
 
 #output {
   background-color: black;
-  max-width: 700px;
-  padding: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #output p {
    font-family: monospace;
    color: white;
    font-size: 16px;
+   column-count: auto;
+   column-width: 10rem;
+}
+
+#column1 {
+  float: left;
+}
+
+#column2 {
+  float: left;
+  padding-left: 10px;
+}
+
+.nofloating {
+  float: none;
+  clear: both;
+}
+
+.toppadding {
+  padding-top: 12px;
+}
+
+.boldedlabel {
+  font-weight: bold;
+}
+
+.factor {
+  max-width: 70px;
+}
+
+.text {
+
+}
+
+label {
+  font-family: "calibri", sans-serif;
 }
 
 body {
