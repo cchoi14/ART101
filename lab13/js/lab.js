@@ -8,8 +8,10 @@
 // FizzBuzz function
 // Loop through numbers 1 to 200, listing them as you go
 function FizzBuzz() {
-  // declare one big string to be added via DOM
+  // declare one small string to contain every line of the loop
+  // and one big string to be added via DOM
   var str = "";
+  var strBig = "";
 
   for (var i = 1; i <= 200; i++) {
     // for every multiple of 3, add "Fizz" to string
@@ -28,16 +30,20 @@ function FizzBuzz() {
     }
 
     // if none of the above applies, add number
-    if ((i % 3) != (0) && (i % 5) != (0) && (i % 7) != (0)) {
+    if ( str == "" ) {
       str += i;
     }
 
     // add line break
     str += "<br>";
+
+    // add everything to big string and empty little string
+    strBig = strBig + str;
+    str = "";
   }
 
   // change the contents of output div with DOM
-  $("#output p").html(str);
+  $("#output p").html(strBig);
 }
-
+// calls FizzBuzz
 FizzBuzz();
