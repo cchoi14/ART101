@@ -21,36 +21,6 @@
    column-width: 10rem;
 }
 
-#column1 {
-  float: left;
-}
-
-#column2 {
-  float: left;
-  padding-left: 10px;
-}
-
-.nofloating {
-  float: none;
-  clear: both;
-}
-
-.toppadding {
-  padding-top: 12px;
-}
-
-.boldedlabel {
-  font-weight: bold;
-}
-
-.factor {
-  max-width: 70px;
-}
-
-label {
-  font-family: "calibri", sans-serif;
-}
-
 body {
   background-color: #606060;
 }
