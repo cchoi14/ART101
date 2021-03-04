@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Lab 15 - AJAX</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="js/lab.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+	<div id="content">
+		<h1>Lab 15 - AJAX</h1>
+		<p>Experimenting with AJAX.</p>
+		<div id="challenges">
+			<h2>Challenges</h2>
+			<p>
+				We used jQuery and AJAX to pull from the
+				<a href="https://pokeapi.co/">Pok&eacute;API</a>
+				to build a Pok&eacute;mon type calculator.
+			</p>
+		</div>
+		<div id="problems">
+			<h2>Problems</h2>
+			<p>Trying to utilize AJAX and APIs were really hard. We were confused on how to even implement
+				AJAX calls in the first place, but then also had to struggle with trying to parse JSONs to get
+				the information that we wanted.</p>
+		</div>
+		<div id="results">
+			<h2>Results</h2>
+			<h3>Pok&eacute;mon Type Calculator (Defense only)</h3>
+			<label for="selector">Your Pok&eacute;mon's Type: (Mono-types only)</label><br>
+			<select name="type" id="selector">
+				<option value="normal">Normal</option>
+				<option value="fighting">Fighting</option>
+				<option value="flying">Flying</option>
+				<option value="poison">Poison</option>
+				<option value="ground">Ground</option>
+				<option value="rock">Rock</option>
+				<option value="bug">Bug</option>
+				<option value="ghost">Ghost</option>
+				<option value="steel">Steel</option>
+				<option value="fire">Fire</option>
+				<option value="water">Water</option>
+				<option value="grass">Grass</option>
+				<option value="electric">Electric</option>
+				<option value="psychic">Psychic</option>
+				<option value="ice">Ice</option>
+				<option value="dragon">Dragon</option>
+				<option value="dark">Dark</option>
+				<option value="fairy">Fairy</option>
+			</select>
+			<button id="activate">Choose</button>
+		</div>
+		<h3>Script Output</h3>
+		<div id="output">
+			<p></p>
+		</div>
+		<br>
+		<a href="../index.html" id="backtohome">Back to Home</a>
+	</div>
+</body>
+
+</html>
